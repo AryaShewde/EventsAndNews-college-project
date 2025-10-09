@@ -1,0 +1,9 @@
+.loading-screen{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30px;
+}
+.my3{
+    margin-top: 12px;
+}

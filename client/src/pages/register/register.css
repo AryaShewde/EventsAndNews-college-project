@@ -1,0 +1,84 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrP9a3w6IrvcRGaE0PLuC2njsyX-FJP_XQA&usqp=CAU"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(56, 56, 56, 0.5)),url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9naW58ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: cover;
+    color: white;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm label {
+    margin: 10px 0;
+}
+
+.registerInput::placeholder{
+    color: rgb(196, 196, 196);
+}
+
+.registerInput {
+    color: white;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: none;
+    box-shadow: 0px 0px 5px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.registerInput:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .register {
+        height: 100vh;
+        color: white;
+    }
+
+    .registerLoginButton {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 15rem;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,81 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZwTkexnqiLSVnPFU3v-8xCl-MisgCFMjI6A&usqp=CAU"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(56, 56, 56, 0.5)), url(https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg);
+    background-size: cover;
+    color: white;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm label{
+    margin: 10px 0;
+}
+
+.loginInput::placeholder{
+    color: rgb(196, 196, 196);
+}
+.loginInput{
+    color: white;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: none;
+    box-shadow: 0px 0px 5px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.loginInput:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 178, 178);
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+@media screen and (max-width: 700px) {
+    .login {
+        height: 100vh;
+        color: white;
+    }
+
+    .loginRegisterButton {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 15rem;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.allposts{
+    display: flex;
+    flex-direction: column;
+}
+.Lazyloading{
+    width: fit-content;
+    margin: auto;
+}

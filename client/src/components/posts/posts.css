@@ -1,0 +1,45 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.postt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 0px;
+}
+.search{
+    width: 70vw;
+    padding: 9px;
+    font-size: 16px;
+    box-shadow: 0px 0px 4px;
+    border-radius: 17px;
+    border: none;
+    background-color: #ededed;
+    margin-right: -30px;
+}
+.search:focus{
+    outline: none;
+}
+.binaculer{
+    font-size: 21px;
+}
+@media screen and (max-width: 810px) {
+    /* .posts{
+        flex-wrap: wrap-reverse;
+    } */
+    .search{
+        width: 85vw;
+    }
+  }
