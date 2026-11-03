@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 5000
 
 # Start the backend server
-CMD ["node", "index.js"]  # Replace 'index.js' with your main backend file
+CMD ["node", "index.js"]
